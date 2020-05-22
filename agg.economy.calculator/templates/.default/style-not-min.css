@@ -1,0 +1,120 @@
+.calculator_section {
+    padding: 2.5rem 0;
+    background: radial-gradient(#595F68, #242a3a);
+    color: #ffffff; }
+    .calculator_section h2, .calculator_section h3, .calculator_section h4, .calculator_section h2 {
+      color: #ffffff !important; }
+    @media print, screen and (min-width: 64em) {
+      .calculator_section {
+        padding: 2.5rem 0; } }
+  
+  .economy-calculator .calc-item {
+    padding: 1.2rem 1rem;
+    color: #ffffff; }
+  
+  .economy-calculator h3 {
+    letter-spacing: 0.02em;
+    font-weight: normal; }
+  
+  .economy-calculator .slider-data {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 3px rgba(18, 20, 22, 0.6); }
+  
+  .economy-calculator .info-data {
+    letter-spacing: 0.02em;
+    font-size: 0.96rem;
+    text-shadow: 0 0 2px rgba(18, 20, 22, 0.6); }
+    .economy-calculator .info-data span {
+      font-size: 1.2em; }
+  
+  .economy-calculator .economy-data {
+    padding: 0.6rem;
+    background-color: #5387dc;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    text-shadow: 0 0 4px rgba(0, 68, 128, 0.5);
+    -webkit-box-shadow: -1px 1px 5px rgba(18, 20, 22, 0.3);
+            box-shadow: -1px 1px 5px rgba(18, 20, 22, 0.3); }
+    .economy-calculator .economy-data .data {
+      font-size: 1.6rem; }
+      .economy-calculator .economy-data .data span {
+        font-size: 0.8em; }
+  
+  .economy-calculator .consumption {
+    margin-top: 18px;
+    letter-spacing: 0.02em;
+    padding: 1rem;
+    background-color: rgba(18, 20, 22, 0.25);
+    margin-bottom: 19px; }
+    .economy-calculator .consumption p {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem; }
+      .economy-calculator .consumption p:last-child {
+        margin: 0; }
+      .economy-calculator .consumption p span {
+        font-size: 1rem; }
+  
+  @media print, screen and (min-width: 40em) {
+    .economy-calculator h3 {
+      font-size: 1.4rem; }
+    .economy-calculator .calc-item {
+      padding: 2rem 2.2rem; }
+    .economy-calculator .first-row {
+      border-bottom: 2px dotted #75797E; } }
+  
+  @media print, screen and (min-width: 64em) {
+    .economy-calculator .headline {
+      position: relative;
+      margin-top: -10px; }
+    .economy-calculator h3 {
+      font-size: 1.4rem; }
+    .economy-calculator .calc-item {
+      padding: 3.2rem 2.2rem; } }
+  
+  /* The slider itself */
+  .economy-slider {
+    width: 100%;
+    -webkit-appearance: none;
+    height: 10px;
+    background: #5387dc;
+    outline: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: none;
+    touch-action: none; }
+  
+  /* Mouse-over effects */
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .economy-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 30px;
+    /* Set a specific slider handle width */
+    height: 30px;
+    /* Slider handle height */
+    background: #f8f8f8;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+    -webkit-box-shadow: 0 0 8px rgba(18, 20, 22, 0.25);
+            box-shadow: 0 0 8px rgba(18, 20, 22, 0.25); }
+  
+  .economy-slider::-moz-range-thumb {
+    width: 30px;
+    /* Set a specific slider handle width */
+    height: 30px;
+    /* Slider handle height */
+    background: #004480;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+    box-shadow: 0 0 8px rgba(18, 20, 22, 0.25); }
